@@ -1,4 +1,9 @@
 : :root {
-    --fuenteHeading:
+    --fuenteHeading: 'PT Sans', sans-serif;
+    --fuenteParrafos: 'Open Sans', sans-serif;
     /*Test2*/
+
+    --primario: #784D3C;
+    --blanco: #ffffff;
+    --negro: #000;
 }
