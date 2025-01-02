@@ -1,3 +1,22 @@
-: :root {
-    --fuenteHeading:
+ :root {
+    --fuenteHeading: 'PT Sans', sans-serif;
+    --fuenteParrafos:'open Sans', sans-serif;
+    --primario:#784D3C;
+    --blanco: #ffff;
+    --nefro: #0000;
+    
+
+
+}
+html {
+    box-sizing: border-box;
+    font-size: 62.5%; /*1 rem =10px*/
+}
+*, *::before, *:after {
+    box-sizing: inherit;
+}
+body {
+    font-family: var(--fuenteParrafos);
+    font-size: 1.6rem;
+    line-height: 2;
 }
